@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--Spring 启动之后，该bean已经被创建，即可拿来使用-->
+    <bean id="dept" class="Dept">
+        <!--<constructor-arg index="0" value="1"/>
+        <constructor-arg index="1" value="test"/>
+        <constructor-arg index="2" value="test"/>-->
+        <property name="deptNo" value="1"/>
+        <property name="deptName" value="test"/>
+        <property name="loc" value="Londan"/>
+    </bean>
+
+    <bean id="member" class="Member">
+        <property name="names">
+            <list>
+                <value>tom</value>
+                <value>jerry</value>
+            </list>
+        </property>
+
+        <property name="phones">
+            <map>
+                <entry key="110" value="police"/>
+            </map>
+        </property>
+
+
+        <property name="infos">
+            <props>
+                <prop key="hpf">cool</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
