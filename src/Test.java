@@ -20,6 +20,9 @@ public class Test {
 
     private String phone;
 
+
+    private String name;
+
     public Test(){}
 
     public Integer getStrLength(String str){
