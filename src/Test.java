@@ -23,4 +23,9 @@ public class Test {
         return str.length();
     }
 
+
+  public void sayHello(){
+    System.out.println("Hello!");
+  }
+
 }
