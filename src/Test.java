@@ -17,6 +17,9 @@
  * @since 1.0.0
  */
 public class Test {
+
+    private String phone;
+
     public Test(){}
 
     public Integer getStrLength(String str){
