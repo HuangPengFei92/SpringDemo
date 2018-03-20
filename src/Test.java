@@ -20,6 +20,8 @@ public class Test {
     
     private String name;
     
+    private String email;
+    
     public Test(){}
 
     public Integer getStrLength(String str){
