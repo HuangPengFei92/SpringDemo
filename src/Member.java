@@ -21,7 +21,6 @@ import java.util.Properties;
  * @since 1.0.0
  */
 public class Member {
-    private String people;
     
     private List<String> names;
 
