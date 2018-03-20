@@ -17,5 +17,9 @@
  * @since 1.0.0
  */
 public class Test {
-
+  
+  public void sayHello(){
+    System.out.println("Hello!");
+  }
+  
 }
