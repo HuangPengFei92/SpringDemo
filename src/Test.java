@@ -17,5 +17,10 @@
  * @since 1.0.0
  */
 public class Test {
+    public Test(){}
+
+    public Integer getStrLength(String str){
+        return str.length();
+    }
 
 }
