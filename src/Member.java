@@ -22,7 +22,9 @@ import java.util.Properties;
  */
 public class Member {
     private String people;
-    
+
+    private Long id;
+
     private List<String> names;
 
     private Map<String,String> phones;
